@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+:root {
+  --color-dark: #1d1f21;
+  --color-dark-light: #3a3c3e;
+  --color-dark-dark: #0a0c0e;
+
+  --color-light: #f8f9fa;
+  --color-light-light: #ffffff;
+  --color-light-dark: #c5c6c7;
+
+  --color-primary: #ffa500; /* Orange accent color */
+  --color-primary-light: #ffb833;
+  --color-primary-dark: #cc8400;
+
+  --color-secondary: #32cd32; /* Green accent color */
+  --color-secondary-light: #5de35d;
+  --color-secondary-dark: #29b029;
+
+  --font-paragraph: "Roboto", sans-serif;
+  --font-heading: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-family: var(--font-paragraph);
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+ul {
+  list-style: none;
+}
