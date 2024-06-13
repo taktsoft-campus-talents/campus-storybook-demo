@@ -27,6 +27,7 @@ function App() {
         laboriosam, aut quidem. Provident ex obcaecati rem est? Eveniet, nostrum
         exercitationem!
       </p>
+
       <ul className={styles["movie-list"]}>
         {movies.map((movie) => (
           <li key={movie.id}>
